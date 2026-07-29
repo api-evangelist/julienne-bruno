@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of /.well-known/* on the storefront host
+host: https://www.juliennebruno.com
+note: >-
+  juliennebruno.com is a Shopify-hosted storefront; the openid-configuration and
+  oauth-authorization-server documents are Shopify customer-account identity
+  metadata served under this host (issuer https://shopify.com/authentication/60252618929).
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 200
+  file: julienne-bruno-openid-configuration.json
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  file: julienne-bruno-oauth-authorization-server.json
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404

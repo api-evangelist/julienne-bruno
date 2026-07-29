@@ -1,7 +1,15 @@
 aid: julienne-bruno
 name: Julienne Bruno
-description: Julienne Bruno is a company surfaced as a portfolio company of seedcamp and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  JULIENNE BRUNO is a London-based food company that creates, develops and produces
+  naturally plant-based fresh cheeses. Its Collection 01 comprises Burrella, Superstraccia
+  and Crematta - dairy-free, fermented products positioned as original foods in their own
+  category rather than vegan imitations. Products are sold direct-to-consumer through a
+  Shopify storefront and stocked at Ocado, Whole Foods, Planet Organic, Harrods and
+  Selfridges, and featured on the menus of 800+ restaurants, pubs and cafes. Founded in
+  2020 and backed by Seedcamp, the brand and assets were later acquired by Harvey &
+  Brockless (The Compleat Food Group). This is a consumer packaged goods company; it
+  publishes no developer API - the profile is enriched from its public web surface.
 url: https://raw.githubusercontent.com/api-evangelist/julienne-bruno/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,29 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.juliennebruno.com/cdn/shop/files/HEADER_1920_1080_PIZZA2.jpg?v=1732110413
 tags:
 - Company
+- Food and Beverage
+- Plant-Based
+- Vegan Cheese
+- Consumer Packaged Goods
+- Direct to Consumer
+- London
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/julienne-bruno-domain-security.yml
+- type: WellKnown
+  url: well-known/julienne-bruno-well-known.yml
+- type: LLMsTxt
+  url: llms/julienne-bruno-llms.txt
 - type: Website
-  url: http://juliennebruno.com
+  url: https://www.juliennebruno.com
+- type: Blog
+  name: Content & Journal
+  url: https://www.juliennebruno.com/blogs/content
+- type: Support
+  name: Contact
+  url: https://www.juliennebruno.com/pages/contact
+- type: PrivacyPolicy
+  url: https://www.juliennebruno.com/pages/privacy-policy
+- type: TermsOfService
+  url: https://www.juliennebruno.com/pages/terms-conditions
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
