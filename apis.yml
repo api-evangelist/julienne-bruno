@@ -11,6 +11,9 @@ description: >-
   Brockless (The Compleat Food Group). This is a consumer packaged goods company; it
   publishes no developer API - the profile is enriched from its public web surface.
 url: https://raw.githubusercontent.com/api-evangelist/julienne-bruno/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This is a consumer packaged goods company; it publishes no developer API - the profile is enriched from its public web surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
